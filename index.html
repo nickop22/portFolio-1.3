@@ -9,37 +9,218 @@
     <title>Nicolas Pacheco CV</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid ">
+    <nav>
+        <nav class="navbar navbar-expand-lg sm p-0 navbar-dark bg-dark">
+            <div class="container-fluid d-flex">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                       <img src="./assets/img/logo.png" alt="logo Nico" height="50px">
                     </a>
                   </div>
-              <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Educación</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link">Experiencia</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
+        </nav>
+    <header id="Hero-Section"class="img-fluid" class="text-light text-center py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto  bg-secondary.bg-gradient">
+                <h2 class="display-1 my-5 fw-bold">
+                    <br>Bienvenid@!!<br> Esta es mi presentación
+                </h2>
+                <p id=parrafoPrincipal class="my-5">
+                    Mi nombre es Nicolás Pacheco, tengo 32 años y estoy dando mis primeros pasos en la programación
+                </p>
+                <div class="mb-5 pb-5">
+                    <a href="#Contacto">
+                        <button class="btn btn-lg btn-primary text-light">Contacto</button>
+                    </a>                    
+                </div>
+            </div>
+        </div>
     </header>
 
-
-
+    <section id="Acerca-de-mi" class="container text-center my-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <p class="my-4">
+            Soy un padre de familia, una persona muy carismática y disfruto mucho el trabajo en equipo. Dentro de mis habilidades destacadas son:
+        </p>
+        <div class="row">
+            <div class="col-12 col-md-4 shadow p-3 mb-5 bg-body rounded">
+                <i class="fa-solid fa-user fa-3x my-3" style="color: #000000;"></i>
+                <h3 class="my-3 fw-bold">Atención al Cliente</h3>
+                <p class="my-3">
+                    Con más de 10 años de experiencia en soporte TI, estoy siempre brindando una atención de calidad a todos los usuarios que he tenido que atender. Resolver las eventualidades de cada uno y desarrollar una curvatura de aprendizaje para que ellos también puedan resolver sus dudas
+                </p>
+            </div>
+            <div class="col-12 col-md-4 shadow p-3 mb-5 bg-body rounded">
+                <i class="fa-solid fa-desktop fa-3x my-3" style="color: #000000;"></i>
+                <h3 class="my-3 fw-bold">Conocimiento en Hardware y Software</h3>
+                <p class="my-3">
+                    Soy de la metodología <strong>"echando a perder se aprende"</strong> eso me llevo a obtener conocimientos muy rápidamente y así tener toda la información que necesito para poder resolver todo tipo de problemas relacionado con las piezas y configuración de cada computador que ha pasado por mis manos
+                </p>
+            </div>
+            <div class="col-12 col-md-4 shadow p-3 mb-5 bg-body rounded">
+                <i class="fa-solid fa-people-group fa-3x my-3" style="color: #000000;"></i>
+                <h3 class="my-3 fw-bold">Trabajo en equipo</h3>
+                <p class="my-3">
+                    <strong>"Todos para uno y uno para todos!</strong> una frase que he aprendido a usar en mi experiencia en Soporte IT. Un trabajo colaborativo que me permitió agilizar la resolución de problemas en cada área o segmento en que me encontraba.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section  id="card-foto" class="my-2 p-2">
+        <div id="proyts">
+        <h2 class="display-4 fw-bold text-center mb-3">Mis Proyectos</h2>
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2 ">
+                <div class="card shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(./assets/img/cuppon.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Creación de Cuppon</h5>
+                        <p class="card-text">
+                            En este ejercicio, vemos como utilizar Bostrap con tarjetas. Además de incorporar fuentes de JavaScrip
+                        </p>
+                        <a href="https://github.com/nickop22/grupon" target="_blank">
+                            <button type="button" class="btn btn-primary">
+                                Ver más
+                            </button>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card  shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(./assets/img/decoPlanta.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Tienda de Planta</h5>
+                        <p class="card-text">
+                            Aca podemos ver que es una tienda de plantas, que lleve acabo con el uso de Col y Flex
+                        </p>
+                        <a href="https://github.com/nickop22/deco-planta" target="_blank">
+                            <button type="button" class="btn btn-primary">
+                                Ver más
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(./assets/img/iguana.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Iguana por Adobe XD</h5>
+                        <p class="card-text">
+                           Se me entregó una maqueta en Adobe XD donde solo tenia los parametros y yo debia transformarlo en HTML y CSS respectivamente.
+                        </p>
+                        <a href="https://github.com/nickop22/iguana" target="_blank">
+                            <button type="button" class="btn btn-primary">
+                                Ver más
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="card-foto" class="my-5 p-2">
+        <div id="work">
+        <h2 class="display-4 fw-bold text-center mb-3">Mis trabajos</h2>
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(https://cdn.worldvectorlogo.com/logos/barry-callebaut-27498.svg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Operario de Almacen y abastecimiento</h5>
+                        <p class="card-text">
+                            Por motivos de fuerza mayor, he tenido que retirarme un poco del mundo de IT para seguir trabajando. Por motivos de pandemia, tuve que empezar a trabajar en este nuevo mundo que es el de alimentación. ¡En barry Callebaut se fabrican los chocolates más vendidos a nivel mundial y por supuesto los más deliciosos!
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(https://static3.pisapapeles.net/uploads/2017/09/MOVISTAR-PISAPAPELES.NET-2.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">En el mundo del Retail</h5>
+                        <p class="card-text">
+                            Me interesó ingresar a esta compañía porque quería generar más habilidades blandas y conocimientos en ventas. Trabajaba para Movistar en una tienda Retail, donde asesoraba y configuraba equipos móviles junto a venta de los mismos.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card shadow p-3 mb-5 bg-body rounded">
+                    <div class="image-top" style="background-image: url(https://s3.amazonaws.com/cht2/thumbs/empresas/de251bb0a9951062222eb24a56bf4798.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Soporte TI nivel 1 y 2</h5>
+                        <p class="card-text">
+                            En esta compañía me pude desempeñar en varias empresas a la vez, como es Canon, Randstad, Axionlog, Monsanto entre otras, brindando soporte y soluciones a los usuarios en el área de informática. Problemas de conexión, teclado, pantalla, navegación, etc. Mi objetivo era darles continuidad operativa a todos.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="Contacto" class="container my-5">
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        <p class="text-center my-4  d-md-block">Si te parezco interesante o quieres establecer un tema de conversación, no dudes en dejar tus datos para que podamos comunicarnos. Estaré al pendiente</p>
+        <form>
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <div class="my-3 text-end">
+                <button class="btn btn-primary text-light">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Nicolas Pacheco N 2023 versión 1.1. Todos los derechos reservados. </p>
+        <ul id="footerIcon" class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+                <a href="https://www.facebook.com/nickop20/"><i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/nicol%C3%A1s-pacheco-naredo-b75681239/"><i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/nickop22"><i class="fab fa-github fa-2x" style="color: #333333;"></i></a>
+            </li>
+            <li>
+                <a href="https://wa.link/ml7az7"><i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i></a>
+            </li>
+        </ul>    
+    </footer>
+    <script src="https://kit.fontawesome.com/c6e0fc5c3c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

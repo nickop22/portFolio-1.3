@@ -4,3 +4,56 @@
 h1, h2, h3, h4, h5, p{
     color: antiquewhite;
 }
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg_principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+#card-foto .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+#parrafoPrincipal{
+  color:white; 
+  text-shadow:black 0.1em 0.1em 0.2em;
+}
+h1Principal{
+  color:white; 
+  text-shadow:black 0.1em 0.1em 0.2em;
+}
+h2{
+  color: 73a3c;
+}
+card{
+  background-color: #A97D5D;
+}
+#footerIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
