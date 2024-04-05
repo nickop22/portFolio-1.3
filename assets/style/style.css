@@ -43,6 +43,11 @@ h1, h2, h3, h4, h5, p{
 h2{
   color: 73a3c;
 }
+
+footer {
+  background-color: #43474b;
+}
+
 #footerIcon{
   display: flex;
   flex-direction: row;
