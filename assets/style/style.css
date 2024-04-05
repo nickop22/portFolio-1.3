@@ -39,15 +39,9 @@ h1, h2, h3, h4, h5, p{
   color:white; 
   text-shadow:black 0.1em 0.1em 0.2em;
 }
-h1Principal{
-  color:white; 
-  text-shadow:black 0.1em 0.1em 0.2em;
-}
+
 h2{
   color: 73a3c;
-}
-card{
-  background-color: #A97D5D;
 }
 #footerIcon{
   display: flex;
